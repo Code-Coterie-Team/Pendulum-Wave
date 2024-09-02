@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #4C4BA2;
+    width: 400px;
+    height: 400px;
+}
+
+.circle {
+    background: white;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    
+}
+
+.groupCircle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    gap: 4px;
+}
+.circle-1{
+    animation-name: circle;
+    animation-duration: 1016.9491525424ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.circle-2{
+    animation-name: circle;
+    animation-duration: 1034.4827586207ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-3{
+    animation-name: circle;
+    animation-duration: 1052.6315789474ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+/* 17.5336060783 */
+.circle-4{
+    animation-name: circle;
+    animation-duration:  1071.4285714286ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-5{
+    animation-name: circle;
+    animation-duration: 1090.9090909091ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-6{
+    animation-name: circle;
+    animation-duration: 1111.1111111111ms ;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-7{
+    animation-name: circle;
+    animation-duration: 1132.0754716981ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-8{
+    animation-name: circle;
+    animation-duration: 1153.8461538462ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-9{
+    animation-name: circle;
+    animation-duration: 1176.4705882353ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-10{
+    animation-name: circle;
+    animation-duration: 1200ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-11{
+    animation-name: circle;
+    animation-duration: 1224.4897959184ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-12{
+    animation-name: circle;
+    animation-duration: 1250ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-13{
+    animation-name: circle;
+    animation-duration: 1276.5957446809ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-14{
+    animation-name: circle;
+    animation-duration: 1304.347826087ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-15{
+    animation-name: circle;
+    animation-duration: 1333.3333333333ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-16{
+    animation-name: circle;
+    animation-duration: 1363.6363636364ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-17{
+    animation-name: circle;
+    animation-duration: 1395.3488372093ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-18{
+    animation-name: circle;
+    animation-duration: 1428.5714285714ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-19{
+    animation-name: circle;
+    animation-duration: 1463.4146341463ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.circle-20{
+    animation-name: circle;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes circle {
+    0% {
+        transform: translate(50px);
+    }
+50%{
+    transform: translate(-50px);
+}
+    100% {
+        transform: translate(50px);
+    }
+}
